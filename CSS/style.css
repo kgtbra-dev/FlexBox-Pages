@@ -124,5 +124,12 @@ a {
     padding: 5px;
     border-radius: 8px;
     text-decoration: none;
-    color:  rgb(142, 100, 241) ;
+    color:  rgb(103, 39, 255) ;
+}
+#botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
