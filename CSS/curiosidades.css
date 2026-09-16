@@ -53,38 +53,16 @@ span {
   padding-bottom: 30px;
 }
 
-
-#footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 55%;
-  background-color: rgb(220, 206, 252);
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 #info-meio {
   font-size: 50px;
 }
 
-a {
-  background-color: rgb(196, 171, 255);
-  padding: 5px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(103, 39, 255);
-}
 
 
-#botoes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
+
+
+
+
 
 #main-curio {
     background-color: rgb(227, 215, 255);
@@ -96,12 +74,59 @@ a {
     margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    gap: 30px;
 }
 
 #img-curi {
    width: 100%;
-   object-fit: cover;
-   border-radius: 15px;
-   padding-bottom: 30px;
-   padding-top: 10px;
+   border-radius: 10px;
+}
+
+.fato {
+  background-color: #af97e7;
+  
+  padding: 20px;
+  align-items: center;
+  
+  
+}
+
+#curiosidades {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 55%;
+  background-color: rgb(178, 145, 253);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a {
+  background-color: rgb(208, 188, 255);
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(103, 39, 255);
+}
+
+#botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
