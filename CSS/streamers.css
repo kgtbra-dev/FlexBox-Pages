@@ -126,9 +126,12 @@ span {
 }
 
 a {
-  background-color: rgb(208, 188, 255);
+  background-color: rgb(195, 231, 255);
   padding: 5px;
   border-radius: 5px;
   text-decoration: none;
   color: rgb(103, 39, 255);
+}
+#streamer {
+  background-color: #ffffff;
 }

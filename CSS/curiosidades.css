@@ -57,52 +57,35 @@ span {
   font-size: 50px;
 }
 
-
-
-
-
-
-
-
 #main-curio {
-    background-color: rgb(227, 215, 255);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-    gap: 30px;
+  background-color: rgb(227, 215, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 30px;
 }
 
 #img-curi {
-   width: 100%;
-   border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .fato {
   background-color: #af97e7;
-  
+
   padding: 20px;
   align-items: center;
-  
-  
 }
 
 #curiosidades {
   display: flex;
   flex-direction: row;
 }
-
-
-
-
-
-
-
-
 
 #footer {
   display: flex;
@@ -116,7 +99,7 @@ span {
 }
 
 a {
-  background-color: rgb(208, 188, 255);
+  background-color: rgb(195, 231, 255);
   padding: 5px;
   border-radius: 5px;
   text-decoration: none;
@@ -129,4 +112,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+#curiosi {
+  background-color: #ffffff;
 }
