@@ -32,7 +32,7 @@ body {
 #header-menu {
   flex-direction: row;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 span {
@@ -126,7 +126,7 @@ span {
 }
 
 a {
-  background-color: rgb(195, 231, 255);
+  background-color: rgb(52, 228, 228);
   padding: 5px;
   border-radius: 5px;
   text-decoration: none;
