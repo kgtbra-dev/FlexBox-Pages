@@ -9,28 +9,38 @@ body {
   background-color: rgba(249, 228, 253, 0.616);
 }
 
+
 #header {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  flex-wrap: nowrap;
-  gap: 20%;
+  flex-wrap: nowrap; 
+  gap: 155px;
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 30px;
-  flex-direction: row;
-  display: flex;
   color: black;
   background-color: rgb(178, 145, 253);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+#header-info {
+  width: 33%;
+}
+
 #header-menu {
   flex-direction: row;
   display: flex;
-  gap: 20px;
- position: absolute;
+  gap: 10px;
+  width: 20%;
+  text-align: center;
+}
+
+#b-distaque {
+  width: 33%;
+  text-align: right;
 }
 
 span {
@@ -92,7 +102,8 @@ span {
 
 a {
   background-color: rgb(52, 228, 228);
-  padding: 5px;
+  padding: 4px;
+  margin-left: 3px;
   border-radius: 5px;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -150,8 +161,4 @@ a {
 #botao-info-3 {
   margin-top: 10px;
   padding-bottom: 30px
-}
-
-#distaque {
-  margin-left: auto;
 }
