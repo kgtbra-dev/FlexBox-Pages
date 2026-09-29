@@ -74,7 +74,7 @@ span {
 
 .card {
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   margin-bottom: 30px;
   background-color: rgb(196, 171, 255);
   margin-top: 20px;
@@ -98,18 +98,6 @@ span {
   object-fit: cover;
 }
 
-#footer {
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(178, 145, 253);
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
 #botoes {
     display: flex;
     flex-direction: row;
@@ -131,4 +119,16 @@ a {
 }
 #streamer {
   background-color: #ffffff;
+}
+
+#footer {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(178, 145, 253);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
