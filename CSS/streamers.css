@@ -78,6 +78,7 @@ span {
 
 .card {
   text-align: left;
+  padding-bottom: 30px;
   margin-bottom: 30px;
   background-color: rgb(196, 171, 255);
   margin-top: 20px;
