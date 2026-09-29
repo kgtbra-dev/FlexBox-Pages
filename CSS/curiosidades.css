@@ -1,138 +1,138 @@
 * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgba(249, 228, 253, 0.616);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(249, 228, 253, 0.616);
 }
 
 #header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 16px;
-  padding-left: 30px;
-  padding-right: 30px;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  flex-direction: row;
-  display: flex;
-  gap: 30px;
-  color: black;
-  background-color: rgb(178, 145, 253);
-  padding-top: 10px;
-  color: rgb(0, 0, 0);
-  padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    color: black;
+    background-color: rgb(178, 145, 253);
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
 }
 
 #header-menu {
-  flex-direction: row;
-  display: flex;
-  gap: 20px;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
 }
 
 span {
-  color: #6727ff;
+    color: #6727ff;
 }
 
 #sec-meio {
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: rgb(208, 188, 255);
-  color: black;
-  width: auto;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 30px;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(208, 188, 255);
+    color: black;
+    width: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #info-meio {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 #main-curio {
-  background-color: rgb(227, 215, 255);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 5%;
-  margin-right: 5%;
-  gap: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+    background-color: rgb(227, 215, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #img-curi {
-  width: 100%;
-  height: 400px;
-  border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
 }
 
 #caixinha-img {
-text-align: center;
+    text-align: center;
 }
 
 .fato {
-  background-color: #af97e7;
-  padding: 20px;
-  align-items: center;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+    background-color: #af97e7;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 #curiosidades {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 55%;
-  background-color: rgb(178, 145, 253);
-  padding-bottom: 10px;
-  padding-top: 10px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 55%;
+    background-color: rgb(178, 145, 253);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 a {
-  background-color: rgb(52, 228, 228);
-  padding: 5px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: black;
+    background-color: rgb(52, 228, 228);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 #botoes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 #curiosi {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 #curio-fatos {
-  display: flex;
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-  gap: 20px;
-  padding-top: 5%;
-  padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-
