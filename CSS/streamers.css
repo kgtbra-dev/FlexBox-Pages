@@ -9,20 +9,16 @@ body {
   background-color: rgba(249, 228, 253, 0.616);
 }
 
-#header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  gap: 16px;
   padding-left: 30px;
   padding-right: 30px;
-  justify-content: space-between;
   margin-bottom: 30px;
   flex-direction: row;
-  display: flex;
   gap: 30px;
-  color: black;
   background-color: rgb(178, 145, 253);
   padding-top: 10px;
   color: rgb(0, 0, 0);
@@ -103,23 +99,23 @@ span {
 }
 
 #footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-left: 30px;
-  gap: 55%;
-  background-color: rgb(178, 145, 253);
-  padding-bottom: 10px;
-  padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(178, 145, 253);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #botoes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 #info-meio {
